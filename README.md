@@ -24,9 +24,13 @@ A mobile-first, standalone workout website designed for runners. This repository
 
 ## Deploy to GitHub Pages
 
-The workflow deploys this repository root when code is pushed to `main`, and can also be run manually from GitHub Actions. It attempts to enable Pages for the repository. If GitHub reports that Pages is unavailable for the repository's visibility or account plan, enable Pages in Settings → Pages or choose a hosting/visibility option supported by your account.
+1. Open [repository Pages settings](https://github.com/Bjoggithk/strength-workouts/settings/pages).
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3. Open the **Actions** tab and verify that **Deploy Strength Workouts to GitHub Pages** finishes successfully.
 
-Expected URL: https://bjoggithk.github.io/strength-workouts/
+Expected public site URL if published publicly: https://bjoggithk.github.io/strength-workouts/
+
+**Plan and visibility note:** GitHub Pages is available for public repositories on GitHub Free. Publishing from a private repository requires GitHub Pro, Team, or Enterprise. This repository is currently private; keep it private only if your plan supports private-repository Pages or you intend to upgrade. If you want to use Pages on a free plan, you can make the repository public in Settings → General → Danger Zone → Change repository visibility. Changing visibility exposes the source code publicly, so make that change only if you are comfortable with it.
 
 ## Add future exercises or workouts
 
