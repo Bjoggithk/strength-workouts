@@ -1,0 +1,13 @@
+{
+  "name": "Strength Workouts — Runner's Gym",
+  "short_name": "Strength",
+  "description": "Mobile-first guided strength workouts for runners.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f6f1",
+  "theme_color": "#17221f",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
